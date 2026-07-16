@@ -1,0 +1,8 @@
+# Create the .gitignore file
+touch .gitignore
+
+# Add the standard patterns to ignore node_modules and Expo build folders
+echo "node_modules/" >> .gitignore
+echo ".expo/" >> .gitignore
+echo ".env" >> .gitignore
+echo "*.log" >> .gitignore
